@@ -3,7 +3,6 @@ package ru.nto.team
 import org.springframework.web.bind.annotation.*
 import org.springframework.http.HttpStatus
 
-// TODO: complete request API behavior, responses and errors.
 @RestController
 @RequestMapping("/api/{code}/requests")
 class RequestController(private val service: RequestService) {
